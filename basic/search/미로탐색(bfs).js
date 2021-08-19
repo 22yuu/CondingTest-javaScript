@@ -33,7 +33,7 @@ const BFS = (r, c) => {
         const nextCol = currentCol + moveCol[n];
         if (
           rangeCheck(nextRow, nextCol) &&
-          Number(graph[nextRow][nextCol]) === 1 &&
+          Number(graph[nextRow][netxtCol]) === 1 &&
           !visited[nextRow][nextCol]
         ) {
           queue.push([nextRow, nextCol]);
