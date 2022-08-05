@@ -24,3 +24,5 @@ t.root = new Node('a');     // 루트가 node 'a'의 주소를 가리키면 'a'�
 t.root.add('b');            // a의 자식 'b', 'c'
 t.root.add('c');
 t.root.child[0].add('d');   // 'b'의 자식으로 'd'가 추가된다.
+
+console.log(t);
