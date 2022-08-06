@@ -39,3 +39,7 @@ console.log(map.size);
 for (let [key, value] of map) {
     console.log(`${key} = ${value}`);
 }
+
+// key가 있는지 없는지?
+
+console.log(map.has(myFunc));
